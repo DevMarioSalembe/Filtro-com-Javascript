@@ -1,0 +1,18 @@
+:root{
+    --font-principal: "Open Sans", sans-serif;
+    --font-secundaria: "Poppins", sans-serif;
+}
+*{
+    font-family: var(--font-secundaria);
+}
+h1, h2,p{
+    font-family: var(--font-principal);
+}
+#input-block{
+    max-width: 35em;
+    width: 90%;
+}
+#container{
+    max-width: 55em;
+    width: 95%;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- INCLUINDO OS ARQUIVOS DE ESTILO E ICONS -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./icons/bootstrap-icons.css" />
+    <!-- TAILWIND CSS -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Filtro com Javascript</title>
+  </head>
+  <body class="bg-gray-950">
+    <header>
+      <div id="header" class="w-full text-center mt-12 mb-16">
+        <h1 class="text-4xl text-violet-500 font-bold">
+          Filtro com Javascript
+        </h1>
+        <div id="input-block" class="mx-auto my-4">
+          <input
+            type="text"
+            class="w-full px-3 py-3.5 rounded-md border-2 border-indigo-500 shadow-lg outline-none text-indigo-300 bg-gray-800 transition-all focus:border-2 focus:border-indigo-200"
+            name="pesquisa"
+            id="pesquisa"
+            placeholder="Busque por alguma coisa..."
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- GRID DE COLUNAS PARA PESQUISA -->
+      <div
+        id="container"
+        class="grid mx-auto gap-3 items-center justify-center smaller:grid-cols-1 md:grid-cols-2"
+      >
+        <!-- PRIMEIRO CARD -->
+        <div class="card bg-gray-800 p-5 rounded-md">
+          <h2 class="text-indigo-500 font-semibold text-2xl" id="title-card">
+            <i class="bi bi-bookmark-check"></i> Ciência
+          </h2>
+          <p class="text-indigo-200 p-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            quod doloribus nam amet ipsam veritatis iusto, distinctio doloremque
+            quidem autem!
+          </p>
+          <a
+            href="#"
+            class="p-3 text-indigo-400 underline transition-all hover:text-white"
+            >saiba mais</a
+          >
+        </div>
+        <!-- PRIMEIRO CARD -->
+        <!-- PRIMEIRO CARD -->
+        <div class="card bg-gray-800 p-5 rounded-md">
+          <h2 class="text-indigo-500 font-semibold text-2xl" id="title-card">
+            <i class="bi bi-cpu"></i> Tecnologia
+          </h2>
+          <p class="text-indigo-200 p-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            quod doloribus nam amet ipsam veritatis iusto, distinctio doloremque
+            quidem autem!
+          </p>
+          <a
+            href="#"
+            class="p-3 text-indigo-400 underline transition-all hover:text-white"
+            >saiba mais</a
+          >
+        </div>
+        <!-- PRIMEIRO CARD -->
+        <!-- PRIMEIRO CARD -->
+        <div class="card bg-gray-800 p-5 rounded-md">
+          <h2 class="text-indigo-500 font-semibold text-2xl" id="title-card">
+            <i class="bi bi-dribbble"></i> Esportes
+          </h2>
+          <p class="text-indigo-200 p-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            quod doloribus nam amet ipsam veritatis iusto, distinctio doloremque
+            quidem autem!
+          </p>
+          <a
+            href="#"
+            class="p-3 text-indigo-400 underline transition-all hover:text-white"
+            >saiba mais</a
+          >
+        </div>
+        <!-- PRIMEIRO CARD -->
+        <!-- PRIMEIRO CARD -->
+        <div class="card bg-gray-800 p-5 rounded-md">
+          <h2 class="text-indigo-500 font-semibold text-2xl" id="title-card">
+            <i class="bi bi-megaphone"></i> Moda
+          </h2>
+          <p class="text-indigo-200 p-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            quod doloribus nam amet ipsam veritatis iusto, distinctio doloremque
+            quidem autem!
+          </p>
+          <a
+            href="#"
+            class="p-3 text-indigo-400 underline transition-all hover:text-white"
+            >saiba mais</a
+          >
+        </div>
+        <!-- PRIMEIRO CARD -->
+      </div>
+    </main>
+    <footer>
+      <div class="w-full text-center p-5">
+        <a href="#" class="text-indigo-300 transition-all hover:text-white"
+          ><i class="bi bi-github me-2"></i>Dev Mário Salembe</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
